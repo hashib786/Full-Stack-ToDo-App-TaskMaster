@@ -1,0 +1,27 @@
+.logout__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 1.6rem;
+    right: 1.6rem;
+    background: $linear-gradient;
+    border: none;
+    filter: drop-shadow(2px 4px 6px black);
+    padding: 0.7rem;
+    box-shadow: 0 0 5px white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+    z-index: 100;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    svg{
+        width: 3rem;
+        height: 3rem;
+        fill: white;
+    }
+}

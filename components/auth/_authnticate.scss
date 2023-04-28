@@ -1,0 +1,48 @@
+.auth__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    transition: all .3s ease-in-out;
+
+    .auth__header--container{
+        width: min(50rem, 100%);
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.1019607843), rgba(255, 255, 255, 0.1176470588));
+        filter: drop-shadow(2px 4px 6px black);
+        padding: 2.1rem;
+        border-radius: 1.6rem;
+        box-shadow: inset 1px 1px 12px white;
+        backdrop-filter: blur(50px);
+
+        @media only screen and (max-width:434px){
+            padding: 2.1rem 0;
+        }
+
+        .auth__btn--container{
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+        }
+
+        .change__auth{
+            display: inline-block;
+            border-radius: 50rem;
+            overflow: hidden;
+            background: #364960;
+            margin: 1.6rem auto;
+
+            .auth__change--btn{
+                color: white;
+                text-decoration: none;
+                padding: 0.9rem 1.6rem;
+                font-size: 1.4rem;
+                display: inline-block;
+                transition: background .3s ease-in-out;
+
+                &.active{
+                    background: #55d4a9;
+                }
+            }
+        }
+    }
+}

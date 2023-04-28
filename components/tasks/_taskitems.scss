@@ -1,0 +1,12 @@
+.taskitems__container{
+    flex: 3;
+    min-width: 37rem;
+    height: 100%;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    // col-gap: 1.6rem;
+    row-gap: 3.6rem;
+    align-items: center;
+
+}

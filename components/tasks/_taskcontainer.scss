@@ -1,0 +1,15 @@
+.task__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: min(120rem, 100%);
+    margin: 7.8rem auto auto auto;
+    padding: 1.9rem;
+    gap: 4rem;
+    align-items: flex-start;
+    position: relative;
+    max-height: 100vh;
+    overflow-y: auto;
+
+    
+}
