@@ -9,8 +9,6 @@ const Logout = () => {
     signOut({ redirect: false });
     router.push("/");
   };
-  console.log(status);
-  console.log(session);
 
   if (!session?.user) return;
 
